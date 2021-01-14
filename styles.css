@@ -3,13 +3,13 @@ body{
 }
 
 .title_name{
-    position: relative;
     color: aqua;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 .title{
     margin: 0 auto;
+    text-align: center;
     border: 2px solid black;
     width:1000px;
     height: 200px;
