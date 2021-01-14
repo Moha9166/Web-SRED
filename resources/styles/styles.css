@@ -1,18 +1,55 @@
+/* Body backgroud */
 body{
     background-color:red;
 }
-
+/* Title text color and font */
 .title_name{
     color: aqua;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
+/* Title box alignment and size */
 .title{
     margin: 0 auto;
     text-align: center;
     border: 2px solid black;
-    width:1000px;
-    height: 200px;
+    width:500px;
+    height: 100px;
     background-color: blueviolet;
-    
 }
+/* Title box recovery transition duration */
+.title{
+    transition-duration: 0.5s;
+}
+/* Title box animation when mouse over box */
+.title:hover{
+    width: 600px;
+    height: 200px;
+    transition-duration: 0.5s;
+    border: 5px dotted blue;
+}
+/* Title border */
+.title_name:hover{
+    text-shadow: 1px 1px 0 blue,
+    -1px 1px 0 blue,
+    1px -1px 0 blue,
+    -1px -1px 0 blue,
+    0px 1px 0 blue,
+    0px -1px 0 blue,
+    -1px 0px 0 blue,
+    1px 0px 0 blue,
+    2px 2px 0 blue,
+    -2px 2px 0 blue,
+    2px -2px 0 blue,
+    -2px -2px 0 blue,
+    0px 2px 0 blue,
+    0px -2px 0 blue,
+    -2px 0px 0 blue,
+    2px 0px 0 blue,
+    1px 2px 0 blue,
+    -1px 2px 0 blue,
+    1px -2px 0 blue,
+    -1px -2px 0 blue,
+    2px 1px 0 blue,
+    -2px 1px 0 blue,
+    2px -1px 0 blue,
+    -2px -1px 0 blue;}
