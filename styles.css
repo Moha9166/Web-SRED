@@ -1,8 +1,18 @@
 body{
     background-color:red;
 }
-.title{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+
+.title_name{
+    position: relative;
     color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.title{
+    margin: 0 auto;
+    border: 2px solid black;
+    width:1000px;
+    height: 200px;
+    background-color: blueviolet;
+    
 }
