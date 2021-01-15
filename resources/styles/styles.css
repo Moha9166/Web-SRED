@@ -14,7 +14,6 @@
     left: var(--mouse-x);
     top: var(--mouse-y);
   }
-
 /* Body backgroud */
 body{
     background-color:red;
@@ -44,7 +43,6 @@ body{
     transition-duration: 0.5s;
     border: 5px dotted blue;
 }
-
 /* Title tex shadow */
 .title:hover{
     text-shadow: 1px 1px 0 blue,
