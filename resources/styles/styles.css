@@ -1,15 +1,19 @@
 /* variable */
 :root{
+    /*title text color*/
     --hola:aqua;
+    /*the margins variable to the custom mouse cursor*/
     --mouse-x: 0px;
     --mouse-y: 0px;
+    /*eliminate the cursor*/
     cursor:none
 }
 .puntero {
-    width: 50px;
-    height: 50px;
-    background: rgb(2, 235, 165);
+    width: 25px;
+    height: 25px;
+    background-image: url('/Pagina-SRED/resources/images/cursor.gif');
     border-radius: 50%;
+    border:3px solid black;
     position: absolute;
     left: var(--mouse-x);
     top: var(--mouse-y);
