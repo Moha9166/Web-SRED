@@ -1,10 +1,27 @@
+/* variable */
+:root{
+    --hola:aqua;
+    --mouse-x: 0px;
+    --mouse-y: 0px;
+    cursor:none
+}
+.puntero {
+    width: 50px;
+    height: 50px;
+    background: rgb(2, 235, 165);
+    border-radius: 50%;
+    position: absolute;
+    left: var(--mouse-x);
+    top: var(--mouse-y);
+  }
+
 /* Body backgroud */
 body{
     background-color:red;
 }
 /* Title text color and font */
 .title_name{
-    color: aqua;
+    color: var(--hola);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* Title box alignment and size */
@@ -27,8 +44,9 @@ body{
     transition-duration: 0.5s;
     border: 5px dotted blue;
 }
-/* Title border */
-.title_name:hover{
+
+/* Title tex shadow */
+.title:hover{
     text-shadow: 1px 1px 0 blue,
     -1px 1px 0 blue,
     1px -1px 0 blue,
@@ -52,4 +70,5 @@ body{
     2px 1px 0 blue,
     -2px 1px 0 blue,
     2px -1px 0 blue,
-    -2px -1px 0 blue;}
+    -2px -1px 0 blue;
+}
