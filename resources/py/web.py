@@ -14,5 +14,9 @@ print(divMain)
 
 for i in divMain:
   print(i.text)
+  lists.write(i.text)
+
+lists.close()
+
 
 

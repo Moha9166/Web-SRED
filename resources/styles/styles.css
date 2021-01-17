@@ -76,7 +76,9 @@ body{
     2px -1px 0 blue,
     -2px -1px 0 blue;
 }
-
+.formato{
+    border: 3px solid black;
+}
 
 
 
