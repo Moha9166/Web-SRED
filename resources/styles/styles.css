@@ -20,7 +20,9 @@
   }
 /* Body backgroud */
 body{
-    background-color:red;
+    background-image: url('/Pagina-SRED/resources/images/beti.gif');
+    background-size: cover;
+
 }
 /* Title text color and font */
 .title_name{
@@ -74,3 +76,11 @@ body{
     2px -1px 0 blue,
     -2px -1px 0 blue;
 }
+
+
+
+
+
+
+
+
