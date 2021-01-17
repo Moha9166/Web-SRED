@@ -1,13 +1,21 @@
-from bs4.element import SoupStrainer
 import requests
-
-page=requests.get("https://www.formula1.com/en/drivers.html")
-
 from bs4 import BeautifulSoup
 
-soup=BeautifulSoup(page.content, 'html.parser')
 
-# print(soup.prettify())
 
-result = soup.find("span", {"class":"tw-animated-number tw-animated-number--monospaced"})
-print (result.text)
+url = "https://www.formula1.com/en/drivers.html"
+
+r = requests.get(url)
+
+soup = BeautifulSoup(r.content,'html.parser')
+
+divMain = soup.findAll('div', class_="points")
+
+print(divMain)
+file.write("hola")
+file.close()
+# for i in divMain:
+#   print(i.text)
+
+# file.write(i.text)
+# file.close()
